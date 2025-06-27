@@ -9,6 +9,13 @@ The app uses a trained Artificial Neural Network (ANN) model built with TensorFl
 - `LabelEncoder` for gender
 - `OneHotEncoder` for geography
 
+You should also install the required Python packages:
 
 ```bash
 pip install streamlit pandas numpy scikit-learn tensorflow
+```
+
+To run the web app, run
+```bash
+streamlit run app.py
+```
